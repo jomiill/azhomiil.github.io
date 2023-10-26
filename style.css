@@ -1,0 +1,365 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+   background-color: white;
+   padding-top: -30px;
+   padding-bottom: -50px;
+   
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul li a{
+    color: black;
+    /* text-decoration: none; */
+    
+}
+a:hover {
+    text-decoration: underline;
+ }
+ li a{
+    text-decoration: none;
+ }
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.nav2{
+    margin-left: 500px;
+}
+nav ul li a{
+    margin-right: 20px;
+    padding-right: -30px;
+}
+img{
+    margin-top: -10px;
+    padding-left: -20px;
+}
+
+
+
+
+/* Content */
+
+.konten{
+    background-image: url('anjar.avif');
+    height: 500px;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    /* position: absolute; */
+    color: white;
+}
+.text h4{
+  font-weight: 100;
+}
+.text h1{
+    font-weight: 500;
+}
+
+.text a{
+    border-radius: 3px;
+    padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.text a:hover{
+    background-color: rgb(37, 37, 185);
+}
+
+.text h3{
+    font-weight: 200;
+}
+.text2 a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
+
+.content{
+    justify-content: space-evenly;
+    margin-top: 30px;
+    display: flex;
+}
+
+.teks{
+    justify-content: space-evenly;
+}
+
+.a{
+    margin-left: 240px;
+}
+
+.b{
+    margin-left: 170px;
+}
+
+.c{
+    margin-left: 140px;
+}
+
+.teks{
+    font-weight: 300;
+}
+.gambaran{
+    display: flex;
+    justify-content: center;
+    
+}
+.gambar1{
+    margin-left: 25px;
+}
+.gambar2{
+    margin-left: 25px;
+}
+.gambar3{
+    margin-left: 25px;
+}
+.gambar4{
+    margin-left: 25px;
+} 
+.teks a{
+  color: blue;
+}
+.gambaran a{
+    text-decoration: none;
+    color: blue;
+}
+.gambaran a:hover{
+    text-decoration: underline;
+}
+.gambaran h2{
+    font-weight: 600;
+}
+.disa{
+    background-image: url('outlook.webp');
+    height: 530px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.disa h1{
+    font-weight:400;
+}
+.disa h4{
+    font-weight: 100;
+}
+
+.disa a{
+    border-radius: 3px;
+    padding: 10px 18px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
+.disa a:hover{
+    background-color: rgb(37, 37, 185);
+}
+.mama .kece{
+    display: flex;
+    justify-content: center;
+}
+.pic2{
+ margin-right: 20px;
+}
+.pic1{
+    margin-left: 20px;
+}
+.pic3{
+    margin-left: 20px;
+}
+.pic4{
+    margin-left: 20px;
+}
+.kece a{
+    text-decoration: none;
+    color: blue;
+}
+.kece a:hover{
+    text-decoration: underline;
+}
+.kece h2{
+    font-weight: 600;
+}
+.mama .link a{
+    padding-bottom: 20px;
+}
+footer{
+    background-color: rgb(219, 219, 219);
+    height: 400px;
+}
+
+.footer{
+    justify-content: space-around;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.Df1, .Df2, .Df3, .Df4, .Df5, .Df6{
+    width: 200px;
+}
+
+.footer h3{
+    font-size: 15px;
+}
+
+.footer ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #616161;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2{
+    background-color: #616161;
+    justify-content: space-between;
+    margin-right: 20px;
+    display: flex;
+    height: 50px;
+    align-items: baseline;
+}
+
+.footer2 .Ef1 ul, .Ef2 ul{
+    list-style: none;
+}
+
+.footer2 .Ef1 ul, .Ef2 ul{
+    display: flex;
+    gap: 10px;
+}
+
+.footer2 .Ef1 ul li, .Ef2 ul li{
+    font-size: 12px;
+    margin-left: 15px;
+    list-style: none;
+}
+
+.footer2 .Ef1 ul li a, .Ef2 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer2 ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2 .Ef1 ul li i, .Ef2 ul li i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    height: 400px;
+}
+
+.footer{
+    justify-content: space-around;
+    display: flex;
+}
+
+.Df1, .Df2, .Df3, .Df4, .Df5, .Df6{
+    width: 200px;
+}
+
+.footer h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: #616161 !important;
+}
+
+.footer ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.footer ul li{
+    margin: 10px;
+    font-size: 12px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #616161;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2{
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    margin-right: 20px;
+    display: flex;
+    height: 50px;
+    align-items: baseline;
+}
+
+.footer2 .Ef1 ul, .Ef2 ul{
+    list-style: none;
+}
+
+.footer2 .Ef1 ul, .Ef2 ul{
+    display: flex;
+    gap: 10px;
+}
+
+.footer2 .Ef1 ul li, .Ef2 ul li{
+    font-size: 12px;
+    margin-left: 15px;
+    list-style: none;
+    font-weight: 600;
+}
+
+.footer2 .Ef1 ul li a, .Ef2 ul li a{
+    color: #616161;
+    text-decoration: none;
+}
+
+.footer2 ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer2 .Ef1 ul li i, .Ef2 ul li i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.footer a{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: lighter !important;
+}
